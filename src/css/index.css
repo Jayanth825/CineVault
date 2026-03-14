@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Netflix Sans', system-ui, Helvetica, Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #141414;
+}
