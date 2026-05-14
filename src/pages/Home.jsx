@@ -59,9 +59,9 @@ function Home() {
       {error && <p className="error">{error}</p>}
 
       <div className="movies-grid">
-        {movies.map((movie) => (
-          <MovieCard movie={movie} key={movie.id} />
-        ))}
+       {movies.map((movie) => (
+  <MovieCard movie={movie} key={movie.id} />
+))}
       </div>
     </div>
   );
